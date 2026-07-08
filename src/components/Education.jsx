@@ -8,7 +8,11 @@ const Education = () => {
       university: "Sirindhorn International Institute of Technology (SIIT), Thammasat University, Thailand",
       period: "2022 - 2024",
       GPA: "3.88 / 4.0",
-      description: "Focused on deep learning, speech processing, and natural language processing. Thesis: [Spoof detection using voice contribution on LFCC features and ResNet-34].",
+      description: "Focused on deep learning, speech processing, and natural language processing.",
+      thesis: {
+        title: "Spoof detection using voice contribution on LFCC features and ResNet-34",
+        link: "https://digital.library.tu.ac.th/tu_dc/frontend/Creator/personDc/404986"
+      }
     },
     {
       degree: "Bachelor of Engineering in Information Science & Technology",
@@ -39,6 +43,14 @@ const Education = () => {
               {edu.GPA && <span className="gpa">GPA: {edu.GPA}</span>}
             </div>
             <p>{edu.description}</p>
+            {edu.thesis && (
+              <p className="thesis">
+                <strong>Thesis: </strong> 
+                <a href={edu.thesis.link} target="_blank" rel="noreferrer" className="thesis-link">
+                  {edu.thesis.title}
+                </a>
+              </p>
+            )}
           </div>
         ))}
       </div>

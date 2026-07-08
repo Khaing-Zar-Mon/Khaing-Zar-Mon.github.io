@@ -78,6 +78,26 @@
   line-height: 1.7;
 }
 
+.thesis {
+  margin-top: 1rem;
+}
+
+.thesis strong {
+  color: var(--accent-1);
+}
+
+.thesis-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--accent-2);
+  transition: var(--transition);
+}
+
+.thesis-link:hover {
+  color: var(--accent-2);
+  border-bottom-style: solid;
+}
+
 @media (max-width: 768px) {
   .edu-header {
     flex-direction: column;
