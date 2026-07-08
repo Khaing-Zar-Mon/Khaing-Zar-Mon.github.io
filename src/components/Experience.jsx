@@ -18,6 +18,13 @@ const Experience = () => {
       techStack: ["Python", "Deep Learning", "PyTorch", "TensorFlow", "Keras", "Scikit-learn", "CNN", "MFCC", "LFCC"]
     },
     {
+      title: "Teaching Assistant",
+      company: "Thammasat University, Thailand",
+      period: "Sep 2023 – Dec 2024",
+      description: "Guided over 200 students in Data Structures, Algorithms, and OOP, improving class assignment completion rates. Simplified complex technical topics into easy-to-understand explanations, helping students perform better in assessments. Supported instructors by reviewing coding exercises and providing feedback that reduced repeated errors. Assisted in grading and course administration to maintain smooth semester operations.",
+      techStack: ["Data Structures", "Algorithms", "Object-Oriented Programming (OOP)"]
+    },
+    {
       title: "Research Project Team Member",
       company: "AINRG, NECTEC",
       period: "Apr 2023 – Jul 2024",
@@ -30,6 +37,13 @@ const Experience = () => {
       period: "Aug 2019 – Aug 2022",
       description: "Designed end-to-end speech processing pipelines for low-resource languages by developing phoneme resources, curating speech datasets, and implementing ASR and speaker verification systems using Kaldi. Performed transcript validation, audio segmentation, and dataset curation to improve data quality and model performance.",
       techStack: ["Kaldi", "ASR", "Speaker Verification", "Audio Segmentation", "Shell Scripting"]
+    },
+    {
+      title: "Volunteer Tutor",
+      company: "University of Technology (Yatanarpon Cyber City), Myanmar",
+      period: "Jun 2019 – Feb 2020",
+      description: "Taught PHP, MySQL, and Laravel to over 130 university students, offering step-by-step coding guidance that improved their ability to implement modern web development methods. Created clear and easy-to-follow lesson materials that improved clarity and helped students complete simulated projects on time with top scores. Guided students in debugging code, improving problem-solving and coding confidence. Mentored students on teamwork, professional behavior, and communication skills to prepare them for real-world work environments.",
+      techStack: ["PHP", "MySQL", "Laravel", "Web Development"]
     }
   ];
 
