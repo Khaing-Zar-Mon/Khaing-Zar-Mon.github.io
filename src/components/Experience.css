@@ -1,0 +1,55 @@
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 30px;
+  height: 100%;
+  width: 2px;
+  background: var(--glass-border);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  margin-left: 60px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -35px;
+  top: 2rem;
+  width: 12px;
+  height: 12px;
+  background: var(--accent-1);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--accent-1);
+}
+
+.timeline-content h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.company {
+  color: var(--accent-2);
+}
+
+.period {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  font-family: monospace;
+}
+
+.timeline-content p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}

@@ -1,0 +1,33 @@
+.contact {
+  padding-bottom: 2rem;
+}
+
+.contact-box {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto 4rem auto;
+}
+
+.contact-box h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-box p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.9rem;
+}
