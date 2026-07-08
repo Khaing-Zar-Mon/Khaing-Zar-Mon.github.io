@@ -1,0 +1,87 @@
+.education {
+  padding: 5rem 0;
+}
+
+.edu-grid {
+  display: grid;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.edu-card {
+  padding: 2.5rem;
+  border-left: 4px solid var(--accent-2);
+  transition: var(--transition);
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(236, 72, 153, 0.15);
+}
+
+.edu-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.edu-icon {
+  background: rgba(236, 72, 153, 0.1);
+  color: var(--accent-2);
+  padding: 1rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.edu-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.25rem;
+  color: var(--text-primary);
+}
+
+.university {
+  color: var(--accent-1);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.edu-meta {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.edu-card .period {
+  font-family: monospace;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.gpa {
+  background: rgba(236, 72, 153, 0.1);
+  color: var(--accent-2);
+  padding: 0.2rem 0.6rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid rgba(236, 72, 153, 0.2);
+}
+
+.edu-card p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .edu-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}

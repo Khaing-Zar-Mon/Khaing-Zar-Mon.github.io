@@ -1,0 +1,70 @@
+.publications {
+  padding: 5rem 0;
+}
+
+.pub-grid {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.pub-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: var(--transition);
+  border-left: 4px solid transparent;
+}
+
+.pub-card:hover {
+  transform: translateY(-5px);
+  border-left: 4px solid var(--accent-1);
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.15);
+}
+
+.pub-content h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.pub-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.pub-meta .publisher {
+  color: var(--accent-2);
+  font-weight: 600;
+}
+
+.pub-icon {
+  color: var(--accent-1);
+  opacity: 0.5;
+  transition: var(--transition);
+  margin-left: 1rem;
+  flex-shrink: 0;
+}
+
+.pub-card:hover .pub-icon {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .pub-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .pub-icon {
+    margin-left: 0;
+    align-self: flex-end;
+  }
+}
