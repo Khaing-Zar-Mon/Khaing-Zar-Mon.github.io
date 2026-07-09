@@ -4,7 +4,8 @@ import './Projects.css';
 const Projects = () => {
   return (
     <section className="projects container" id="projects">
-      <h2 className="section-title text-gradient">Key Projects</h2>
+      <h2 className="section-title text-gradient">Turning ideas into impactful AI solutions, one project at a time.</h2>
+      <p className="projects-subtitle">A showcase of projects that reflect my curiosity, growth, and passion for solving real-world problems with AI.</p>
       <div className="project-grid">
         <div className="project-card glass">
           <div className="project-header">

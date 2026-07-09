@@ -6,9 +6,9 @@
   --text-primary: #ffffff;
   --text-secondary: #a3a3a3;
   
-  --accent-1: #6366f1; /* Indigo */
-  --accent-2: #a855f7; /* Purple */
-  --accent-3: #ec4899; /* Pink */
+  --accent-1: #c084fc; /* Light Purple */
+  --accent-2: #d8b4fe; /* Lighter Purple */
+  --accent-3: #e879f9; /* Soft Fuchsia */
   
   --glass-bg: rgba(23, 23, 23, 0.7);
   --glass-border: rgba(255, 255, 255, 0.1);
