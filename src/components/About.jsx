@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="about container" id="about">
       <h2 className="section-title text-gradient">Technical Skills</h2>
-      
+
       <div className="skills-grid">
         <div className="skill-category glass">
           <h3 className="category-title">
