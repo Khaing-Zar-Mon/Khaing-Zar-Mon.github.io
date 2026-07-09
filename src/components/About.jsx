@@ -3,18 +3,8 @@ import './About.css';
 
 const About = () => {
   return (
-    <section className="about container" id="about">
-      <h2 className="section-title text-gradient">About Me</h2>
-      <div className="about-me-content glass">
-        <p>
-          Hi, I'm Khaing Zar Mon (Khaing). I'm a Machine Learning Engineer with a Master's degree in Artificial Intelligence and Internet of Things. I'm driven by curiosity and enjoy exploring new ideas, connecting the dots to solve complex problems, and building AI solutions with real-world impact.
-        </p>
-        <p>
-          When I'm not coding or experimenting with AI, you'll find me cooking, gardening, or enjoying the peace of nature.
-        </p>
-      </div>
-
-      <h2 className="section-title text-gradient" style={{ marginTop: '4rem' }}>Technical Skills</h2>
+    <section className="about container" id="skills">
+      <h2 className="section-title text-gradient">Technical Skills</h2>
 
       <div className="skills-grid">
         <div className="skill-category glass">
