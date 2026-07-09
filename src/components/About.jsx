@@ -70,6 +70,7 @@ const About = () => {
           <div className="skill-tags">
             <span>MLflow</span>
             <span>Docker</span>
+            <span>Kafka</span>
             <span>REST APIs</span>
             <span>n8n Workflow Automation</span>
             <span>Git</span>
